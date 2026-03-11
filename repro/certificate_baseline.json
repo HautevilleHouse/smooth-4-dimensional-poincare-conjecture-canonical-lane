@@ -1,0 +1,78 @@
+{
+  "all_pass": true,
+  "all_pass_normalized": true,
+  "blockers": {
+    "S4P_G1": [],
+    "S4P_G2": [],
+    "S4P_G3": [],
+    "S4P_G4": [],
+    "S4P_G5": [],
+    "S4P_G6": [],
+    "S4P_GM": []
+  },
+  "derived": {
+    "strict_coh_zero": true,
+    "strict_margin": 0.8038585209003215
+  },
+  "gates": {
+    "S4P_G1": "PASS",
+    "S4P_G2": "PASS",
+    "S4P_G3": "PASS",
+    "S4P_G4": "PASS",
+    "S4P_G5": "PASS",
+    "S4P_G6": "PASS",
+    "S4P_GM": "PASS"
+  },
+  "inputs": {
+    "kappa_smoothing": 1.08992,
+    "sigma_handle": 1.065,
+    "kappa_compact": 0.8038585209003215,
+    "rho_rigidity": 1.077,
+    "sphere_transfer": 1.028393,
+    "eps_coh": 0.0,
+    "sigma_star_can": 1.052
+  },
+  "lane": {
+    "canonical_theorem_lane": "manifold_constrained",
+    "active_lane": "manifold_constrained"
+  },
+  "meta": {
+    "computed_at_utc": "2026-03-11T12:00:00+00:00",
+    "framework": "smooth_4d_poincare_conjecture"
+  },
+  "normalized": {
+    "blockers": {
+      "G1": [],
+      "G2": [],
+      "G3": [],
+      "G4": [],
+      "G5": [],
+      "G6": [],
+      "GCoh": [],
+      "GM": []
+    },
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS",
+      "G3": "PASS",
+      "G4": "PASS",
+      "G5": "PASS",
+      "G6": "NA",
+      "GCoh": "PASS",
+      "GM": "PASS"
+    }
+  },
+  "schema": {
+    "g6_policy": "NA means this framework has no standalone pre-coherence G6 gate",
+    "normalized_gate_keys": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "GCoh",
+      "GM"
+    ]
+  }
+}

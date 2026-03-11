@@ -1,0 +1,23 @@
+  title: "The Smooth 4-Dimensional Poincare Conjecture via Smooth-Structure Persistence"
+  message: "If you use this workspace, cite the manuscript and theorem notes."
+  type: software
+  authors:
+    - name: "HautevilleHouse"
+  date-released: 2026-03-11
+  repository-code: "https://github.com/HautevilleHouse/smooth-4-dimensional-poincare-conjecture-canonical-lane"
+  url: "https://github.com/HautevilleHouse/smooth-4-dimensional-poincare-conjecture-canonical-lane"
+  license: None
+  keywords:
+    - 4-manifolds
+- geometric-topology
+- mathematical-proof
+- reproducibility
+- smooth-4-dimensional-poincare-conjecture
+- smooth-structures
+- topology
+  preferred-citation:
+    type: article
+    title: "The Smooth 4-Dimensional Poincare Conjecture via Smooth-Structure Persistence"
+    authors:
+      - name: "HautevilleHouse"
+    date: 2026-03-11
