@@ -1,6 +1,52 @@
 # Identification Bridge
 
-Gate: `S4P_G6`
-Constant: `eps_coh`
+Mature wording: `endpoint identification / boundary object / final margin`.
 
-The determining class `C_det` is used to compare extracted endpoint observables with the intended target observables. The bridge closes when `eps_coh = 0` in strict mode.
+In-paper anchor: `paper/SMOOTH_4D_POINCARE_CONJECTURE_PREPRINT.md` (bridge and margin interface).
+
+## Goal
+Identify the canonical endpoint representative with the ordinary problem-side target for `prove the smooth 4-dimensional Poincare statement by routing admissible smooth-structure states through coercive smoothing response, handle capture, compactness, rigidity, sphere transfer, and strict coherence`.
+This is the boundary/global-object step in the public Canonical Lane package.
+
+## Objects
+
+- canonical endpoint representative: the surviving endpoint object produced by the gate chain.
+- problem-side target: the ordinary mathematical target statement named in the main preprint.
+- endpoint lock: `sphere_transfer`.
+- coherence remainder: `eps_coh`.
+
+## Determining Class
+
+The determining class is the collection of observables, locks, or transfer constraints declared by the main preprint and constants registry. In the older wording this appears as an endpoint lock; in the mature wording it is endpoint identification.
+
+## Closure Criterion
+
+The bridge closes when:
+
+1. the projected/core, transport, compactness, and rigidity gates have supplied their inputs;
+2. the endpoint-transfer lock `sphere_transfer` identifies the surviving representative;
+3. the coherence remainder `eps_coh` is not smuggled into the endpoint;
+4. the strict closure margin `M_S4P` remains positive.
+
+## Lemma Chain and Proof Payload
+
+### Lemma ID.1 (lock persistence)
+Endpoint locks persist along the admissible extracted lane when the transport and compactness gates have closed.
+
+Payload: verify `sphere_transfer` against the constants registry and runtime certificate.
+
+### Lemma ID.2 (determining-class uniqueness)
+Two admissible endpoint representatives that agree on the declared determining locks are equivalent under the repo's declared endpoint equivalence.
+
+Payload: compare the main preprint's target statement with the bridge language in this file.
+
+### Theorem ID.3 (coherence/identification closure)
+If lock persistence, determining-class uniqueness, and strict coherence hold, then the endpoint representative is identified and the final margin `M_S4P` is meaningful.
+
+## Current Instantiation
+
+- endpoint-transfer artifact key: `sphere_transfer`
+- coherence artifact key: `eps_coh`
+- margin: `M_S4P`
+- mature equivalent: `endpoint identification / boundary object / final margin`
+- audit surface: `repro/run_repro.sh`, `repro/certificate_runtime.json`, and `artifacts/constants_registry.json`
